@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.storebg{background-color: darkgray;}
+.header
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.headercontact
+{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bookcontact.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.headerabout{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bookabout1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.headerstore{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bookstore1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;    
+}
+.headershop{
+    min-height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bookshop.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;    
+}
+nav
+{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+nav img
+{
+    width: 150px;
+    
+}
+.nav-links
+{
+    flex: 1;
+    text-align: right;
+}
+.nav-links ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li a{
+    
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.nav-links ul li:hover::after{
+    width: 100%;
+    
+}
+.txt
+{
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box2{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 70px;
+}
+.text-box2 h1{
+    font-size: 40px;
+}
+.info{
+    font-size: 20px;
+    color:white;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 15px;
+    color: white;
+    
+}
+input#submit{ 
+    width:200px;
+    cursor: pointer;
+    padding: 7px;
+    font-weight: 500;
+    border-radius: 3px;
+    background-color: bisque;
+    font-size: 15px;
+    border:1px solid bisque;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    
+}
+.btn-order{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size:15px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.content-table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.content-table thead tr {
+  background-color: white;
+  color: #ffffff;
+  text-align: left;
+  font-weight: bold;
+}
+.content-table td{
+ margin: 50%;   
+}
+.content-table th,
+.content-table td {
+  padding: 20px 3px;
+    color: white;
+}
+.content-table th{font-size: 25px;}
+.content-table tbody tr {
+  border-bottom: 2px solid white;
+}
+
+.content-table tbody tr:nth-of-type(even) {
+  background-color: white;
+}
+
+.content-table tbody tr:last-of-type {
+  border-bottom: 4px solid white;
+    font-size: 20px;
+}
+
+.content-table tbody tr.active-row {
+  font-weight: bold;
+  color: white;
+}
+.col-sm-8{
+    color:white;
+    font-size: 20px;
+    padding-left: 5%;
+}
+.content-table a{
+    
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.frm{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    color:white;
+}
+.frm1{
+    font-size: 25px;
+    padding: 20px;
+    margin-left: 25%;
+    color:white;
+    background-color: rgba(0,0,0,0.5);
+    width:50%;
+    border-radius:10px;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow: :2px 2px 15px rgba(0,0,0,0.3);
+}
